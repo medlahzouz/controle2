@@ -28,13 +28,15 @@
             android:onClick="enregestre"
             android:text="enregestrer"
             android:layout_width="190dp"
+            android:id="@+id/btnaEnregistrer"
             />
 
         <Button
             style="@style/btnMenu"
             android:onClick="anuller"
             android:text="Supprimer"
-            android:layout_width="190dp"/>
+            android:layout_width="190dp"
+            android:id="@+id/btnaAnnuler"/>
     </LinearLayout>
 
 
