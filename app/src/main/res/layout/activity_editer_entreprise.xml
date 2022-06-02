@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".editer_entreprise">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</Spinner>
+
+    <EditText
+        android:id="@+id/e1"
+        style="@style/editetx"
+        android:hint="taper votre raison social"
+        />
+
+    <EditText
+        android:id="@+id/e2"
+        style="@style/editetx"
+        android:layout_below="@+id/e1"
+        android:hint="taper votre adress" />
+    <EditText
+        android:id="@+id/e3"
+        style="@style/editetx"
+        android:hint="taper votre capita"
+        android:layout_below="@+id/e2"/>
+
+
+    <Button
+        android:id="@+id/btnaEnregistrer"
+        style="@style/btnMenu"
+        android:layout_width="190dp"
+        android:layout_below="@+id/e3"
+
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="414dp"
+
+
+        android:width="80dp"
+        android:onClick="modifier"
+        android:text="modifier" />
+
+    <Button
+        android:id="@+id/btnaAnnuler"
+        style="@style/btnMenu"
+        android:layout_width="190dp"
+        android:layout_below="@+id/e3"
+        android:layout_margin="100dp"
+
+        android:layout_marginTop="102dp"
+
+
+        android:width="80dp"
+        android:onClick="suprimer"
+        android:text="Supprimer" />
+
+
+</RelativeLayout>
