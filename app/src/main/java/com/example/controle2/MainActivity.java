@@ -2,6 +2,7 @@ package com.example.controle2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,6 +14,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void afiche_entrepris(View view) {
+
+    public void ajoute(View view) {
+        Intent i =new Intent(MainActivity.this,ajouter_entrprise.class);
+        startActivity(i);
+    }
+
+    public void edite(View view) {
+        Intent i =new Intent(MainActivity.this,editer_entreprise.class);
+        startActivity(i);
+    }
+
+    public void list(View view) {
+        Intent i =new Intent(MainActivity.this,liste_des_entreprise.class);
+        startActivity(i);
     }
 }
+
+

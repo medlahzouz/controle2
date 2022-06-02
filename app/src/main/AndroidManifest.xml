@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Controle2">
         <activity
+            android:name=".liste_des_entreprise"
+            android:exported="false" />
+        <activity
+            android:name=".editer_entreprise"
+            android:exported="false" />
+        <activity
             android:name=".ajouter_entrprise"
             android:exported="false" />
         <activity

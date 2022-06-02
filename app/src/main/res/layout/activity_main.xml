@@ -19,17 +19,20 @@
     <Button
         android:id="@+id/b1"
         style="@style/btnMenu"
-        android:text="ajouter une entreprise"></Button>
+        android:text="ajouter une entreprise"
+        android:onClick="ajoute" />
 
     <Button
         android:id="@+id/b2"
         style="@style/btnMenu"
-        android:text="editer une entreprise"></Button>
+        android:text="editer une entreprise"
+        android:onClick="edite"></Button>
 
 <Button
     android:id="@+id/b3"
     style="@style/btnMenu"
-    android:text="liste de tous les entreprise"></Button>
+    android:text="liste de tous les entreprise"
+    android:onClick="list"></Button>
 
 
 
