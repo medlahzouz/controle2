@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Controle2">
         <activity
+            android:name=".ajouter_entrprise"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
