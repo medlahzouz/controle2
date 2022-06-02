@@ -9,7 +9,7 @@ public class Entreprise implements Serializable {
     private String Adresse;
     private double Capitale;
 public Entreprise(){
-    
+
 }
     public int getID() {
         return ID;
